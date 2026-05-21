@@ -3,6 +3,7 @@ from .models import Student
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 from django.contrib import messages
+from django.contrib.auth.models import User
 
 @login_required(login_url='/login/')
 
@@ -133,3 +134,18 @@ def student_detail(request, id):
         'home/detail.html',
         data
     )
+    
+def register(request):
+
+    if request.method == "POST":
+        username = request.POST['username']
+        password = request.POST['password']
+
+        User.objects.create_user(
+            username=username,
+            password=password
+        )
+
+        return redirect('login')
+
+    return render(request, 'accounts/register.html')    
