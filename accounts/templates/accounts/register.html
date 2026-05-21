@@ -8,6 +8,10 @@
         Register Page
     </h1>
 
+    {% for message in messages %}
+    <p>{{ message }}</p>
+{% endfor %}
+
     <form method="POST" class="w-50 p-4 shadow">
 
         {% csrf_token %}
