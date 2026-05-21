@@ -29,6 +29,11 @@ A Django-based Student Management System with authentication, CRUD operations, s
 ```bash
 pip install -r requirements.txt
 
+```
+
+## Author
+
+Keerthana
 
 
 

@@ -75,6 +75,7 @@ def home(request):
     'total_students': total_students,    
     'message': message,
     'students': students,
+    'sort': sort,
     'search': search
 }
     return render(request, 'home/home.html', data)
