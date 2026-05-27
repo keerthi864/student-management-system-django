@@ -1,40 +1,101 @@
 # Student Management System
 
-A Django-based Student Management System with authentication, CRUD operations, search, sorting, pagination, and image upload.
+A professional Django-based Student Management System with authentication, dark mode, student ID cards, validation, Excel export, and responsive dashboard UI.
+
+---
 
 ## Features
 
-- User Authentication
-- Add Student
-- Update Student
-- Delete Student
-- Student Detail Page
-- Search Students
-- Sorting
+- User Authentication (Login/Register/Logout)
+- Add, Update, Delete Students
+- Search and Sort Students
 - Pagination
-- Image Upload
-- Responsive UI with Bootstrap
+- Dark Mode
+- Student ID Card
+- Print ID Card / Save as PDF
+- Excel Export
+- Responsive UI
+- Form Validation
+- Student Image Upload
+
+---
 
 ## Technologies Used
 
 - Python
 - Django
-- Bootstrap
+- Bootstrap 5
 - HTML
 - CSS
-- SQLite
+- JavaScript
+- SQLite3
+- OpenPyXL
+
+---
 
 ## Installation
 
+1. Clone repository
+
 ```bash
-pip install -r requirements.txt
+git clone YOUR_GITHUB_LINK
 
 ```
 
-## Author
+2. Open project folder
+
+```bash
+cd mysite
+```
+
+3. Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run migrations
+
+```bash
+python manage.py migrate
+```
+
+5. Start server
+
+```bash
+python manage.py runserver
+```
+
+---
+
+## Project Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Search and Sort
+
+![Search](screenshots/search.png)
+
+### Student Form
+
+![Form](screenshots/form.png)
+
+### Student ID Card
+
+![ID Card](screenshots/idcard.png)
+
+### Update Page
+
+![Update](screenshots/update.png)
+
+### Excel Export
+
+![Excel](screenshots/excel.png)
+
+---
+
+## Developed By
 
 Keerthana
-
-
-
-

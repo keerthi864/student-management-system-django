@@ -74,3 +74,70 @@ a{
     transition: 0.3s;
 }
 
+.bg-dark .student-name {
+
+    color: white !important;
+
+    text-decoration: none;
+
+}
+
+.custom-input {
+
+    height: 55px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+}
+
+
+.custom-btn {
+
+    height: 55px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}
+
+.student-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    transition: 0.3s;
+
+}
+
+
+.student-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+
+}
+
+
+/* Dark mode */
+.bg-dark .student-card {
+
+    background: #1e293b;
+
+}
